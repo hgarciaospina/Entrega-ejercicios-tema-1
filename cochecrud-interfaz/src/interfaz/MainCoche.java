@@ -5,8 +5,8 @@ public class MainCoche {
     public static void main(String[] args) {
         CocheCRUD cocheCrud = new CocheCRUDImpl();
 
-        System.out.println(cocheCrud.save());
-        System.out.println(cocheCrud.findAll());
-        System.out.println(cocheCrud.delete());
+        System.out.println("Método save: " + cocheCrud.save());
+        System.out.println("Método findAll: " + cocheCrud.findAll());
+        System.out.println("Método delete: " + cocheCrud.delete());
     }
 }
